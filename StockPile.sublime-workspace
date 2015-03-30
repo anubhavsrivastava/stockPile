@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"os",
+				"os.networkInterfaces();"
+			],
+			[
+				"ticketI",
+				"ticketInfo"
+			],
+			[
+				"passenger",
+				"passengerSegments"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"copmonent",
+				"components"
+			],
+			[
+				"index",
+				"indexOfFareCategory"
+			],
+			[
+				"fea",
+				"features"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"ban",
+				"banners"
+			],
+			[
+				"in",
+				"indexes"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1429,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/customBuild/nodeMon.sublime-build",
+	"command_palette":
+	{
+		"height": 88.0,
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ajava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta ",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntajava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntaxml",
+				"Set Syntax: XML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"javas ",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sysn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta",
+				"Set Syntax: HTML"
+			],
+			[
+				"synta ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"syntaja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"synta javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"stnta ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setsyjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"synta jas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"syntax htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"prefere",
+				"Preferences: Settings - Default"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"preference",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sublsett",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"lintsett",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"syntjava",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 487.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Git/Mystique/cleand/Tavisca.Mystique.Widgets/Resources/GlobalizationKeys/xl/sharedStrings.xml",
+		"/E/Git/Mystique/cleand/Tavisca.Mystique.Widgets/Resources/GlobalizationKeys/xl/worksheets/sheet1.xml",
+		"/E/Git/Mystique/cleand/Tavisca.Mystique.Widgets/Resources/GlobalizationKeys/xl/worksheets/sheet2.xml",
+		"/E/Git/Mystique/cleand/Tavisca.Mystique.Widgets.Extension/fc/Master_Header_fcserver.js",
+		"/E/Git/Mystique/d4/Portal/Portal.csproj",
+		"/Z/_dev-mystiquecode.tavisca.com/Web.config",
+		"/Y/_qa-mystiquecode.tavisca.com/web.config",
+		"/F/Git/Mystique/legbreakup/airsearch2.xml",
+		"/F/Git/rasterize/rasterize/routes/rasterize/index.js",
+		"/F/Git/rasterize/rasterize/app.js",
+		"/C/Users/asrivastava/Desktop/COG.xml",
+		"/F/Git/Mystique/d2/Tavisca.Mystique.Widgets.Extension/voyabook/Checkout_PaymentMain_Default.hbs",
+		"/F/Git/Mystique/d2/Portal/Docs/help.html",
+		"//beta-app/d$/Sites/_qa-mystiquecode.tavisca.com/web.config",
+		"/F/Git/Mystique/lbl/Tavisca.Mystique.Travel.Air.ExternalServices/ExternalToNativeTranslator.cs",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/F/Git/Mystique/develop/Tavisca.Mystique.Grunt/installModule.bat",
+		"/F/Git/rasterize/rasterize/node_modules/phantom/node_modules/shoe/node_modules/sockjs/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js",
+		"/F/Git/rasterize/rasterize/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/test/source-map/test-array-set.js",
+		"/F/Git/rasterize/rasterize/node_modules/phantom/node_modules/shoe/node_modules/sockjs/node_modules/faye-websocket/examples/autobahn_client.js",
+		"/F/Git/rasterize/rasterize/node_modules/express/node_modules/send/node_modules/mime/types/node.types",
+		"/F/Git/rasterize/rasterize/node_modules/jade/node_modules/mkdirp/test/sync.js",
+		"/F/Git/rasterize/rasterize/routes/users.js",
+		"/F/mys-static/globalize.js",
+		"/F/mys-static/mystique-i18n.js",
+		"/F/mys-static/helpers",
+		"/F/Git/upraise/up-raise-develop/up-raise-develop/routes/admin/employees.js",
+		"/F/Git/upraise/up-raise-develop/up-raise-develop/package.json",
+		"/F/Git/upraise/up-raise-develop/up-raise-develop/apis/ldap-authenticate.js",
+		"/F/Git/upraise/up-raise-develop/up-raise-develop/apis/authenticate.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberPOC/libs/main.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberPOC/libs/core.js",
+		"/F/POCs/Todo Ember/resources/framework/handlebars-1.0.0.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-handlebars/tests/handlebars_test.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-testing/lib/helpers.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-metal/lib/computed.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-metal/lib/cache.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-metal/package.json",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-metal/tests/alias_test.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-metal/tests/utils/meta_test.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-runtime/tests/mixins/mutable_enumerable_test.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-runtime/lib/mixins/mutable_enumerable.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/lib/packages.js",
+		"/F/POCs/Tavisca.Clarifi.MVCPoc/packages/repositories.config",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/package.json",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-handlebars-compiler/package.json",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-handlebars-compiler/tests/precompile_type_test.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-handlebars/lib/component_lookup.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/packages/ember-handlebars/lib/controls.js",
+		"/C/Users/asrivastava/Desktop/emberPOC/emberlib/ember.js/ember-source.gemspec",
+		"/F/POCs/Todo Ember/Tavisca.Experiment.Ember.TodoMVC.csproj",
+		"/C/Users/asrivastava/Documents/subl proj/desk.sublime-project",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/SublimeLinter/README.md",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/E/Tavisca/ed/projects/doc-it/routes/routesBuilder.js",
+		"/F/Sublime Text 3 Build 3059/Sublime Text Build 3059 x64/Data/Packages/User/SublimeLinter.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form",
+			"getLegTicketForPassenger",
+			"PopulateActivityPassenger",
+			"PopulateFlightPassenger",
+			"Hotel",
+			"Room",
+			"setDuration",
+			"GetFareAmount",
+			"getFlightLocations",
+			"getAddOn",
+			"tripPayments",
+			"getmem",
+			"membership",
+			"GetPassengerFare",
+			"passengers",
+			"passengerS",
+			"passengers",
+			"passengerS",
+			"passengers",
+			"DOUBLE MANOR ROOM",
+			"searchId",
+			"searc",
+			"AssignMinimumPrice",
+			"request",
+			"sear",
+			"setDayTour",
+			"initializeCruisePage",
+			"/cruises",
+			"nn",
+			"n",
+			"<div>This is a Test</div>",
+			"..",
+			"getLegTicketForPassenger",
+			"customerInvoiceUrl",
+			"fare.tot",
+			"total",
+			"total\n",
+			"guest",
+			"short",
+			"myModal",
+			"standa",
+			"theme",
+			"siteur",
+			"\\",
+			"ships",
+			"ship",
+			"ship.",
+			"ship",
+			"}}}",
+			"tabDay",
+			"registerHelpers",
+			"Ember.Handlebars.registerBoundHelper",
+			"window",
+			"excel",
+			"handlebars",
+			"imports",
+			"sa",
+			"					",
+			"theme",
+			"themer",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "StockPile.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"handlebars.js",
+				"POCs\\Todo Ember\\resources\\framework\\handlebars-1.0.0.js"
+			],
+			[
+				"metal/core",
+				"ember.js\\packages\\ember-metal\\lib\\core.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\asrivastava\\Documents\\subl proj\\desk.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
