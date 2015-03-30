@@ -54,14 +54,45 @@
 				"buffer_size": 1429,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "var express = require('express');\nvar router = express.Router();\nvar dirty = require('dirty');\nvar db =  dirty('user.db');\nvar consoleMessage = \"\";\nvar console= {};\n\nconsole.log =function(messa){\nconsoleMessage+='\\n'+consoleMessage;\n} ;\n \ndb.on('drain', function() {\n    console.log('All records are saved on disk now.');\n });\n\nrouter.get('/log', function(req, res, next) {\n  res.send(consoleMessage);\n});\n\n\n/* GET users listing. */\nrouter.get('/', function(req, res, next) {\n  res.send('respond with a resource');\n});\n\n\nrouter.post('/create', function(req, res, next) {\n\n  db.set(req.body.id,req.body,function(){\n  	res.send(req.body);\n  });\n\n});\n\nrouter.post('/update', function(req, res, next) {\n\n  db.rm(req.body.id,function(){\n\n  	db.set(req.body.id,req.body,function(){\n  	res.send(req.body);\n    });\n });\n\n});\n\nrouter.get('/get/:id', function(req, res, next) {\n\n db.forEach(function(key, val) {\n	console.log(key);\n		if(key==req.params.id)\n		{\n			res.send(val);\n		 }\n\n});\n\nres.send(\"Not Found :\" +req.params.id);\n});\n\nrouter.delete('/delete/:id', function(req, res, next) {\n    db.rm(req.body.id,function(){\n\n    res.send(req.body);\n    \n });\n\n});\nmodule.exports = router;\n",
+			"file": "routes/store.js",
+			"file_size": 1225,
+			"file_write_time": 130721652232565817,
+			"settings":
+			{
+				"buffer_size": 1179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 159,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/customBuild/nodeMon.sublime-build",
 	"command_palette":
 	{
-		"height": 88.0,
+		"height": 163.0,
 		"selected_items":
 		[
+			[
+				"markdi",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
 			[
 				"javasc",
 				"Set Syntax: JavaScript"
@@ -143,10 +174,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
-				"Package Control: Install Package"
-			],
-			[
 				"synta javasc",
 				"Set Syntax: JavaScript"
 			],
@@ -219,7 +246,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 392.0
+		"width": 480.0
 	},
 	"console":
 	{
@@ -394,7 +421,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -419,6 +446,66 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/store.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								812,
+								812
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"target": "disk"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
